@@ -11,6 +11,8 @@ public class test : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		// Faris was here :)
+        int speed; 
 	}
 }
