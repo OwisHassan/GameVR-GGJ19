@@ -4,6 +4,7 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/ProCore*
 
 # Visual Studio cache directory
 .vs/
@@ -34,5 +35,3 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
-Assets\ProCore*
