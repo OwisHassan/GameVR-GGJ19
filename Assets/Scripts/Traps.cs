@@ -15,7 +15,7 @@ public class Traps : MonoBehaviour{
     }
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("DDdsadasdD");
+        //Debug.Log("DDdsadasdD");
         if (XX && other.transform.name == "Player")
         {
             tirrinn.SetActive(false);
@@ -23,7 +23,7 @@ public class Traps : MonoBehaviour{
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("fsdf");
+       // Debug.Log("fsdf");
 
         if (!XX && other.transform.name == "Player")
         {

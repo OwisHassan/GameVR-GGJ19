@@ -21,7 +21,7 @@ public class LightController : MonoBehaviour {
         {
             MaxD = Camera.main.GetComponent<MicrophoneV>().MicLoudness * 80;
 
-            if (MaxD >= 60f)
+            if (MaxD >= 40f)
                 StartCoroutine(GG());
         }
 
@@ -44,7 +44,7 @@ public class LightController : MonoBehaviour {
             MaxD = 0;
             MinD = 0;
             LI.spotAngle = MinD;
-            yield return new WaitForSeconds(10f);
+            yield return new WaitForSeconds(3f);
             IsTalking = false;
         }
 
